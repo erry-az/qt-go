@@ -1,16 +1,17 @@
+//go:build qml
 // +build qml
 
 package view
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/erry-az/qt-go/core"
 
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/controller"
+	"github.com/erry-az/qt-go/internal/examples/sql/masterdetail_qml/controller"
 
-	_ "github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/view/album"
-	_ "github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/view/artist"
-	_ "github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/view/detail"
-	_ "github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/view/dialog"
+	_ "github.com/erry-az/qt-go/internal/examples/sql/masterdetail_qml/view/album"
+	_ "github.com/erry-az/qt-go/internal/examples/sql/masterdetail_qml/view/artist"
+	_ "github.com/erry-az/qt-go/internal/examples/sql/masterdetail_qml/view/detail"
+	_ "github.com/erry-az/qt-go/internal/examples/sql/masterdetail_qml/view/dialog"
 )
 
 func init() {

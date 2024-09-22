@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/erry-az/qt-go/core"
 )
 
 var ListModel *listModel

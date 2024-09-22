@@ -1,6 +1,6 @@
 package interop
 
-import "github.com/therecipe/qt"
+import "github.com/erry-az/qt-go"
 
 func init() {
 	qt.ItfMap["interop.PseudoQJSEngine_ITF"] = PseudoQJSEngine{}

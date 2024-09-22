@@ -1,10 +1,10 @@
 package dialog
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/erry-az/qt-go/core"
 
-	fcontroller "github.com/therecipe/qt/internal/examples/showcases/wallet/files/dialog/controller"
-	wcontroller "github.com/therecipe/qt/internal/examples/showcases/wallet/wallet/dialog/controller"
+	fcontroller "github.com/erry-az/qt-go/internal/examples/showcases/wallet/files/dialog/controller"
+	wcontroller "github.com/erry-az/qt-go/internal/examples/showcases/wallet/wallet/dialog/controller"
 )
 
 type filesDialogTemplate struct {

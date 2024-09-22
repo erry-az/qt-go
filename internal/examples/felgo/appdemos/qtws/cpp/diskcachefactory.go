@@ -1,9 +1,9 @@
 package cpp
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/network"
-	"github.com/therecipe/qt/qml"
+	"github.com/erry-az/qt-go/core"
+	"github.com/erry-az/qt-go/network"
+	"github.com/erry-az/qt-go/qml"
 )
 
 type DiskCacheFactory struct {

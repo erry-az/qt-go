@@ -1,9 +1,10 @@
+//go:build !minimal
 // +build !minimal
 
 package quickcontrols2
 
 import (
-	"github.com/therecipe/qt/internal"
+	"github.com/erry-az/qt-go/internal"
 	"unsafe"
 )
 

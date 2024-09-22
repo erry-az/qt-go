@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/erry-az/qt-go/internal/binding/parser"
+	"github.com/erry-az/qt-go/internal/utils"
 )
 
 func HTemplate(m string, mode int, tags string) []byte {

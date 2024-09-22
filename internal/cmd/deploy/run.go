@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/erry-az/qt-go/internal/utils"
 )
 
 func run(target, name, depPath, device string) {

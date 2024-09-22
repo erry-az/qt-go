@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/therecipe/qt/core"
+	"github.com/erry-az/qt-go/core"
 
-	maincontroller "github.com/therecipe/qt/internal/examples/showcases/wallet/controller"
-	_ "github.com/therecipe/qt/internal/examples/showcases/wallet/view/controller"
+	maincontroller "github.com/erry-az/qt-go/internal/examples/showcases/wallet/controller"
+	_ "github.com/erry-az/qt-go/internal/examples/showcases/wallet/view/controller"
 )
 
 func init() {

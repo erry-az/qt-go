@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/erry-az/qt-go/internal/utils"
 )
 
 type Function struct {
@@ -91,8 +91,8 @@ func (f *Function) register(m string) {
 	}
 }
 
-//TODO: multipoly [][]string
-//TODO: connect/disconnect slot functions + add necessary SIGNAL_* functions (check first if really needed)
+// TODO: multipoly [][]string
+// TODO: connect/disconnect slot functions + add necessary SIGNAL_* functions (check first if really needed)
 func (f *Function) PossiblePolymorphicDerivations(self bool) ([]string, string) {
 	fc, _ := f.Class()
 
@@ -266,7 +266,7 @@ func (f *Function) IsJNIGeneric() bool {
 	return false
 }
 
-//TODO:
+// TODO:
 func (f *Function) IsSupported() bool {
 
 	if utils.QT_API_NUM(utils.QT_VERSION()) >= 5140 { //TODO: 5.14.0
@@ -510,7 +510,6 @@ func (f *Function) IsSupported() bool {
 		f.Fullname == "QSqlTableModel::submit" ||
 		f.Fullname == "QFormLayout::itemAt" ||
 		f.Fullname == "QGraphicsGridLayout::itemAt" ||
-
 		((f.ClassName() == "QGraphicsGridLayout" || f.ClassName() == "QFormLayout") && f.Name == "itemAt" && f.OverloadNumber == "2") {
 		return false
 	}
@@ -590,7 +589,7 @@ func IsBlockedDefault() []string {
 	}
 }
 
-//TODO: combine
+// TODO: combine
 func (f *Function) IsDerivedFromVirtual() bool {
 	if f.Virtual != "non" {
 		return true
@@ -603,7 +602,6 @@ func (f *Function) IsDerivedFromVirtual() bool {
 
 			for _, cf := range bclass.Functions {
 				if cf.Name == f.Name &&
-
 					cf.Output == f.Output && len(cf.Parameters) == len(f.Parameters) &&
 					cf.Virtual != "non" {
 
@@ -625,7 +623,7 @@ func (f *Function) IsDerivedFromVirtual() bool {
 	return false
 }
 
-//TODO: combine
+// TODO: combine
 func (f *Function) IsDerivedFromImpure() bool {
 	if f.Static || f.Virtual == PURE {
 		return false
@@ -642,7 +640,6 @@ func (f *Function) IsDerivedFromImpure() bool {
 
 			for _, cf := range bclass.Functions {
 				if cf.Name == f.Name &&
-
 					cf.Output == f.Output && len(cf.Parameters) == len(f.Parameters) &&
 					cf.Virtual == IMPURE {
 
@@ -676,7 +673,6 @@ func (f *Function) IsDerivedFromPure() bool {
 
 			for _, cf := range bclass.Functions {
 				if cf.Name == f.Name &&
-
 					cf.Output == f.Output && len(cf.Parameters) == len(f.Parameters) &&
 					cf.Virtual == PURE {
 

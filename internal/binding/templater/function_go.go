@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/converter"
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/erry-az/qt-go/internal/binding/converter"
+	"github.com/erry-az/qt-go/internal/binding/parser"
+	"github.com/erry-az/qt-go/internal/utils"
 )
 
 func goFunction(function *parser.Function) string {

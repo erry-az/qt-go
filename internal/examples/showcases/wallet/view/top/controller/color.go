@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/erry-az/qt-go/core"
 
-	"github.com/therecipe/qt/internal/examples/showcases/wallet/theme/controller"
+	"github.com/erry-az/qt-go/internal/examples/showcases/wallet/theme/controller"
 )
 
 type colorController struct {
@@ -12,5 +12,5 @@ type colorController struct {
 	_ func() `signal:"change,auto"`
 }
 
-//lazy binding to the (qml singleton) theme controller
+// lazy binding to the (qml singleton) theme controller
 func (c *colorController) change() { controller.Controller.Change() }

@@ -5,10 +5,10 @@ import (
 	"os"
 	"plugin"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/qml"
-	"github.com/therecipe/qt/quick"
-	"github.com/therecipe/qt/widgets"
+	"github.com/erry-az/qt-go/core"
+	"github.com/erry-az/qt-go/qml"
+	"github.com/erry-az/qt-go/quick"
+	"github.com/erry-az/qt-go/widgets"
 )
 
 //go:generate qtrcc desktop ./plugin

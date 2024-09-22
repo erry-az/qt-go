@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/webengine"
-	"github.com/therecipe/qt/widgets"
+	"github.com/erry-az/qt-go/core"
+	"github.com/erry-az/qt-go/webengine"
+	"github.com/erry-az/qt-go/widgets"
 )
 
 const htmlData = `<!DOCTYPE html>

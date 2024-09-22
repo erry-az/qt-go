@@ -1,10 +1,10 @@
 package sub
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/erry-az/qt-go/core"
 
-	_ "github.com/therecipe/qt/internal/cmd/moc/test/sub/conf"
-	_ "github.com/therecipe/qt/internal/cmd/moc/test/sub/subsub"
+	_ "github.com/erry-az/qt-go/internal/cmd/moc/test/sub/conf"
+	_ "github.com/erry-az/qt-go/internal/cmd/moc/test/sub/subsub"
 )
 
 var SomeType *someType

@@ -1,9 +1,9 @@
 package files
 
 import (
-	"github.com/therecipe/qt/quick"
+	"github.com/erry-az/qt-go/quick"
 
-	"github.com/therecipe/qt/internal/examples/showcases/wallet/files/controller"
+	"github.com/erry-az/qt-go/internal/examples/showcases/wallet/files/controller"
 )
 
 func init() { actionButtonTemplate_QmlRegisterType2("FilesTemplate", 1, 0, "ActionButtonTemplate") }

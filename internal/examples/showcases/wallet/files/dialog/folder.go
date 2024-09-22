@@ -1,9 +1,9 @@
 package dialog
 
 import (
-	"github.com/therecipe/qt/widgets"
+	"github.com/erry-az/qt-go/widgets"
 
-	_ "github.com/therecipe/qt/internal/examples/showcases/wallet/files/dialog/controller"
+	_ "github.com/erry-az/qt-go/internal/examples/showcases/wallet/files/dialog/controller"
 )
 
 type folderUploadTemplate struct {

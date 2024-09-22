@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/cmd"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/erry-az/qt-go/internal/binding/parser"
+	"github.com/erry-az/qt-go/internal/cmd"
+	"github.com/erry-az/qt-go/internal/utils"
 )
 
 const (
@@ -78,7 +78,7 @@ func cgoTemplate(module, path, target string, mode int, ipkg, tags string, libs 
 	return
 }
 
-//TODO: use qmake props ?
+// TODO: use qmake props ?
 func isAlreadyCached(module, path, target string, mode int, libs []string) bool {
 	if utils.QT_NOT_CACHED() {
 		return false

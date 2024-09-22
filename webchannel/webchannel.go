@@ -1,10 +1,11 @@
+//go:build !minimal
 // +build !minimal
 
 package webchannel
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/internal"
+	"github.com/erry-az/qt-go/core"
+	"github.com/erry-az/qt-go/internal"
 	"unsafe"
 )
 

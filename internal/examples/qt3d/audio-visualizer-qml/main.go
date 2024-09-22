@@ -5,9 +5,9 @@ package main
 import (
 	"os"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/quick"
+	"github.com/erry-az/qt-go/core"
+	"github.com/erry-az/qt-go/gui"
+	"github.com/erry-az/qt-go/quick"
 )
 
 func main() {

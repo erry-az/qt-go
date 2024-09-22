@@ -1,5 +1,5 @@
 package cgo
 
-import _ "github.com/therecipe/qt/internal/cmd/moc/test/sub/conf"
+import _ "github.com/erry-az/qt-go/internal/cmd/moc/test/sub/conf"
 
 type StructSubGoCGo struct{}

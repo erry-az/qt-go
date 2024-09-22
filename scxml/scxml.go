@@ -1,10 +1,11 @@
+//go:build !minimal
 // +build !minimal
 
 package scxml
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/internal"
+	"github.com/erry-az/qt-go/core"
+	"github.com/erry-az/qt-go/internal"
 	"unsafe"
 )
 
@@ -886,8 +887,9 @@ func NewQScxmlEventFromPointer(ptr unsafe.Pointer) (n *QScxmlEvent) {
 	return
 }
 
+// QScxmlEvent::EventType
+//
 //go:generate stringer -type=QScxmlEvent__EventType
-//QScxmlEvent::EventType
 type QScxmlEvent__EventType int64
 
 const (

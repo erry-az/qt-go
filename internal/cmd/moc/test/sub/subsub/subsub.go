@@ -1,9 +1,9 @@
 package subsubcustom
 
 import (
-	"github.com/therecipe/qt/gui"
+	"github.com/erry-az/qt-go/gui"
 
-	_ "github.com/therecipe/qt/internal/cmd/moc/test/sub/conf"
+	_ "github.com/erry-az/qt-go/internal/cmd/moc/test/sub/conf"
 )
 
 var SubSubTestStructInstance *SubSubTestStruct

@@ -3,7 +3,7 @@ package controller
 import (
 	"time"
 
-	"github.com/therecipe/qt/core"
+	"github.com/erry-az/qt-go/core"
 )
 
 var DEMO bool

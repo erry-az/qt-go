@@ -3,8 +3,8 @@ package cpp
 import (
 	"unsafe"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/network"
+	"github.com/erry-az/qt-go/core"
+	"github.com/erry-az/qt-go/network"
 )
 
 type CacheReply struct {

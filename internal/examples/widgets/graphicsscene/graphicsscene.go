@@ -6,8 +6,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/widgets"
+	"github.com/erry-az/qt-go/gui"
+	"github.com/erry-az/qt-go/widgets"
 )
 
 var (

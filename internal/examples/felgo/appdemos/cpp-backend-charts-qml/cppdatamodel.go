@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/therecipe/qt/core"
+	"github.com/erry-az/qt-go/core"
 )
 
 type CppDataModel struct {

@@ -9,7 +9,7 @@ import (
 	"sync"
 )
 
-const PackageName = "github.com/therecipe/qt"
+const PackageName = "github.com/erry-az/qt-go"
 
 var (
 	mustGoPath      string

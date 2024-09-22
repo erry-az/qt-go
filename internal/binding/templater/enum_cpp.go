@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/parser"
+	"github.com/erry-az/qt-go/internal/binding/parser"
 )
 
 func cppEnum(e *parser.Enum, v *parser.Value) string {

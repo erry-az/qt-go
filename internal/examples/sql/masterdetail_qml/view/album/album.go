@@ -1,12 +1,13 @@
+//go:build !qml
 // +build !qml
 
 package album
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/widgets"
+	"github.com/erry-az/qt-go/core"
+	"github.com/erry-az/qt-go/widgets"
 
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/controller"
+	"github.com/erry-az/qt-go/internal/examples/sql/masterdetail_qml/controller"
 )
 
 type albumController struct {

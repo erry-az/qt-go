@@ -44,7 +44,7 @@ set GOPATH=C:\gopath
 setx /M GOROOT "C:\go"
 set GOROOT=C:\go
 
-go get -v -tags=no_env github.com/therecipe/qt/cmd/...
+go get -v -tags=no_env github.com/erry-az/qt-go/cmd/...
 
 
 ::install VC++ 2015 Redis

@@ -1,6 +1,6 @@
 package controller
 
-import "github.com/therecipe/qt/core"
+import "github.com/erry-az/qt-go/core"
 
 var LeftController *leftController
 

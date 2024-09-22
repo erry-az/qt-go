@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/therecipe/qt/bluetooth"
-	"github.com/therecipe/qt/core"
+	"github.com/erry-az/qt-go/bluetooth"
+	"github.com/erry-az/qt-go/core"
 )
 
 type FileTransfer struct {
@@ -26,7 +26,7 @@ func (f *FileTransfer) init() {
 	f.ConnectUpdateProgress(f.updateProgress)
 }
 
-//! [Transfer-1]
+// ! [Transfer-1]
 func (f *FileTransfer) initTransfer(address, fileName string) {
 	println("Begin sharing file:", address, fileName)
 	btAddress := bluetooth.NewQBluetoothAddress3(address)

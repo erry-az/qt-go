@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/therecipe/qt/internal/cmd"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/erry-az/qt-go/internal/cmd"
+	"github.com/erry-az/qt-go/internal/utils"
 )
 
 const (
@@ -68,7 +68,6 @@ func IsPackedMap(v string) bool {
 		strings.HasPrefix(v, "QMultiMap<") ||
 		strings.HasPrefix(v, "QHash<") ||
 		strings.HasPrefix(v, "QMultiHash<")) &&
-
 		strings.Count(v, "<") == 1 //TODO:
 }
 
@@ -184,7 +183,7 @@ func CleanName(name, value string) string {
 	return name
 }
 
-//TODO: remove global
+// TODO: remove global
 var LibDepsMutex = new(sync.Mutex)
 var LibDeps = map[string][]string{
 	"Core":          {"Widgets", "Gui", "Svg"}, //Widgets, Gui //Svg
@@ -360,7 +359,7 @@ func IsWhiteListedSailfishLib(name string) bool {
 	}
 }
 
-//TODO: whitelist everything once dependency issue is resolved
+// TODO: whitelist everything once dependency issue is resolved
 func IsWhiteListedJsLib(name string) bool {
 	switch name {
 	case "Core", "Gui", "Widgets", "PrintSupport", "Qml", "Quick", "QuickControls2", "Xml", "XmlPatterns", "WebSockets", "Svg", "Charts", "Multimedia", "VirtualKeyboard":
