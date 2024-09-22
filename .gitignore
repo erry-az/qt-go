@@ -32,3 +32,5 @@ interop/moc*
 /internal/examples/**/uic*
 
 flutter/*lutter*
+
+.idea
