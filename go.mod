@@ -1,6 +1,6 @@
 module github.com/erry-az/qt-go
 
-go 1.23.0
+go 1.22
 
 require (
 	github.com/gopherjs/gopherjs v0.0.0-20190411002643-bd77b112433e
